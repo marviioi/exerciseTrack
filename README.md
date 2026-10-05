@@ -2,6 +2,8 @@
 
 A lightweight, real-time computer vision pipeline designed to analyze human biomechanics during squat execution using single-camera video streams. The system computes joint kinematics, enforces full depth validation via a Finite State Machine (FSM), and filters real-world sensory noise.
 
+![Squat Tracker Demo](assets/demo.png)
+
 ## Key Features
 
 - **MediaPipe Tasks API (Vision Running Mode):** Utilizes the modern MediaPipe 0.10+ Tasks architecture configured for standalone CPU execution, eliminating Apple Silicon Metal hardware runtime conflicts and latency spikes.
